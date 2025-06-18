@@ -148,3 +148,4 @@ let Peter = sprites.create(img`
     ................
     `, SpriteKind.Player)
 controller.moveSprite(Peter, 100, 0)
+Peter.setPosition(13, 90)
